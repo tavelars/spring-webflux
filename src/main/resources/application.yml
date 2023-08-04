@@ -2,3 +2,5 @@ spring:
   data:
     mongodb:
       uri: mongodb+srv://${DB_USER:admin}:${DB_PASSWORD}@clusterspringwebflux.pe4komg.mongodb.net/${DB_NAME:spring-webflux}?retryWrites=true&w=majority
+  application:
+    name: spring-webflux
